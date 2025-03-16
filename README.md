@@ -5,7 +5,7 @@ Official Pytorch implementation of **A Hierarchical Compression Technique for 3D
   <img src="hgsc_framework.png"  style="width:80%">
 </p>
 
-[[`Arxiv`]([https://arxiv.org/pdf/2403.14530](https://arxiv.org/abs/2411.06976))]  [[`Github`]([https://github.com/YihangChen-ee/HAC](https://github.com/H-Huang774/HGSC))]
+[[`Arxiv`](https://arxiv.org/abs/2411.06976)]  [[`Github`](https://github.com/H-Huang774/HGSC)]
 ## Installation
 ```
 conda create -n hgsc python=3.8
