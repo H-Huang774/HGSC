@@ -36,5 +36,33 @@ Results/
 │   │   ├── cameras.json
 │   │   ├── point_cloud.ply
 ```
-[[`Mip-nerf 360`] (https://jonbarron.info/mipnerf360)] [[`Deepblending`] (https://github.com/Phog/DeepBlending)] [[`Tanks and temples`] (https://www.tanksandtemples.org/download/)]
-[[`BungeeNeRF`] ((https://drive.google.com/file/d/1nBLcf9Jrr6sdxKa1Hbd47IArQQ_X8lww/view?usp=sharing)/[百度网盘[提取码:4whv]](https://pan.baidu.com/s/1AUYUJojhhICSKO2JrmOnCA))] [[`PKU-DyMVHumans`] (https://pku-dymvhumans.github.io)]
+big_scenes:
+[[`Mip-nerf 360`] (https://jonbarron.info/mipnerf360)] 
+[[`Deepblending`] (https://github.com/Phog/DeepBlending)] 
+[[`Tanks and temples`] (https://www.tanksandtemples.org/download/)]
+small_scenes:
+[[`BungeeNeRF`] ((https://drive.google.com/file/d/1nBLcf9Jrr6sdxKa1Hbd47IArQQ_X8lww/view?usp=sharing)/[百度网盘[提取码:4whv]](https://pan.baidu.com/s/1AUYUJojhhICSKO2JrmOnCA))] 
+[[`PKU-DyMVHumans`] (https://pku-dymvhumans.github.io)]
+
+##Run
+python run_big_scenes.py
+python rrun_small_scenes.py
+
+##Evaluation
+python metric_scenes.py
+
+## Citation
+If you find our code or paper helps, please consider citing:
+```
+@INPROCEEDINGS{10887742,
+  author={Huang, He and Huang, Wenjie and Yang, Qi and Xu, Yiling and Li, Zhu},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={A Hierarchical Compression Technique for 3D Gaussian Splatting Compression}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Visualization;Three-dimensional displays;Octrees;Termination of employment;Transforms;Signal processing;Rendering (computer graphics);Acoustics;Time complexity;Speech processing;3D Gaussian Splatting;Compression},
+  doi={10.1109/ICASSP49660.2025.10887742}}
+```
+And thanks to the authors of [3DGS](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) for their excellent code!
