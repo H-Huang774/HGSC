@@ -17,8 +17,8 @@ git clone https://github.com/H-Huang774/HGSC.git
 cd HGSC
 
 # Install submodules
-pip install dgmesh/submodules/diff-gaussian-rasterization
-pip install dgmesh/submodules/simple-knn
+pip install submodules/diff-gaussian-rasterization
+pip install submodules/simple-knn
 
 # Install other dependencies
 pip install -r requirements.txt
