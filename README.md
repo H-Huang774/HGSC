@@ -35,7 +35,6 @@ Results/
 │   ├──data_name
 │   │   ├── cameras.json
 │   │   ├── point_cloud.ply
-```
 big_scenes:
 [[`Mip-nerf 360`] (https://jonbarron.info/mipnerf360)] 
 [[`Deepblending`] (https://github.com/Phog/DeepBlending)] 
@@ -43,14 +42,16 @@ big_scenes:
 small_scenes:
 [[`BungeeNeRF`] ((https://drive.google.com/file/d/1nBLcf9Jrr6sdxKa1Hbd47IArQQ_X8lww/view?usp=sharing)/[百度网盘[提取码:4whv]](https://pan.baidu.com/s/1AUYUJojhhICSKO2JrmOnCA))] 
 [[`PKU-DyMVHumans`] (https://pku-dymvhumans.github.io)]
-
+```
 ##Run
+```
 python run_big_scenes.py
 python rrun_small_scenes.py
-
+```
 ##Evaluation
+```
 python metric_scenes.py
-
+```
 ## Citation
 If you find our code or paper helps, please consider citing:
 ```
