@@ -23,3 +23,18 @@ pip install submodules/simple-knn
 # Install other dependencies
 pip install -r requirements.txt
 ```
+## Dataset
+Please organize the dataset with the trained pc.ply like below:
+```
+Results/
+├── big_scenes/
+│   ├──data_name (like Train)
+│   │   ├── cameras.json
+│   │   ├── point_cloud.ply
+├── small_scenes/
+│   ├──data_name
+│   │   ├── cameras.json
+│   │   ├── point_cloud.ply
+```
+[[`Mip-nerf 360`] (https://jonbarron.info/mipnerf360)] [[`Deepblending`] (https://github.com/Phog/DeepBlending)] [[`Tanks and temples`] (https://www.tanksandtemples.org/download/)]
+[[`BungeeNeRF`] ((https://drive.google.com/file/d/1nBLcf9Jrr6sdxKa1Hbd47IArQQ_X8lww/view?usp=sharing)/[百度网盘[提取码:4whv]](https://pan.baidu.com/s/1AUYUJojhhICSKO2JrmOnCA))] [[`PKU-DyMVHumans`] (https://pku-dymvhumans.github.io)]
