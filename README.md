@@ -53,7 +53,7 @@ python rrun_small_scenes.py
 python metric_scenes.py
 ```
 ## Citation
-If you find our code or paper helps, please consider citing:
+If you find our code or paper useful, please consider citing:
 ```
 @INPROCEEDINGS{10887742,
   author={Huang, He and Huang, Wenjie and Yang, Qi and Xu, Yiling and Li, Zhu},
